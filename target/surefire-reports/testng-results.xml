@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4501" started-at="2020-06-29T18:56:18Z" finished-at="2020-06-29T18:56:22Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4501" started-at="2020-06-29T18:56:18Z" finished-at="2020-06-29T18:56:22Z">
+      <class name="Test_Package.TestText">
+        <test-method status="PASS" signature="TextBox(java.lang.String)[pri:0, instance:Test_Package.TestText@492691d7]" name="TextBox" duration-ms="1639" started-at="2020-06-30T00:26:18Z" data-provider="Text" finished-at="2020-06-30T00:26:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextBox -->
+        <test-method status="PASS" signature="TextBox(java.lang.String)[pri:0, instance:Test_Package.TestText@492691d7]" name="TextBox" duration-ms="703" started-at="2020-06-30T00:26:20Z" data-provider="Text" finished-at="2020-06-30T00:26:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hai2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextBox -->
+        <test-method status="PASS" signature="TextBox(java.lang.String)[pri:0, instance:Test_Package.TestText@492691d7]" name="TextBox" duration-ms="708" started-at="2020-06-30T00:26:21Z" data-provider="Text" finished-at="2020-06-30T00:26:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hai3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextBox -->
+        <test-method status="PASS" signature="TextBox(java.lang.String)[pri:0, instance:Test_Package.TestText@492691d7]" name="TextBox" duration-ms="691" started-at="2020-06-30T00:26:21Z" data-provider="Text" finished-at="2020-06-30T00:26:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hai4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextBox -->
+        <test-method status="PASS" signature="TextBox(java.lang.String)[pri:0, instance:Test_Package.TestText@492691d7]" name="TextBox" duration-ms="551" started-at="2020-06-30T00:26:22Z" data-provider="Text" finished-at="2020-06-30T00:26:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hai4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextBox -->
+      </class> <!-- Test_Package.TestText -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
