@@ -34,8 +34,7 @@ public class BasePage {
 	public BasePage() {
 		if(driver==null)
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Nataraj\\.m2\\repository\\webdriver"
-					+ "\\chromedriver\\win32\\83.0.4103.39\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "F:\\Ramkumar\\Software\\chromedriver.exe");
 		//WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
 			driver.get("http://leafground.com/home.html");
