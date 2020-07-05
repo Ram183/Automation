@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+<listeners>
+<listener class-name="Test_Package.Login_Test"></listener>
+</listeners>
+
+
+
+
   <test name="Test">
- <!-- <parameter name="Name" value="How Are You"></parameter>-->
+  
+ <parameter name="User" value="Admin"></parameter>
+ <parameter name="Pass" value="admin123"></parameter>
     <classes>
-      <class name="Test_Package.TestText"/>
+   
+      <class name="Test_Package.TestText"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

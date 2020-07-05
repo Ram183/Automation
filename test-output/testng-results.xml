@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="172" started-at="2020-06-29T17:23:46Z" finished-at="2020-06-29T17:23:46Z">
+  <suite name="Default suite" duration-ms="2547" started-at="2020-07-02T18:23:54Z" finished-at="2020-07-02T18:23:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="172" started-at="2020-06-29T17:23:46Z" finished-at="2020-06-29T17:23:46Z">
-      <class name="Test_Package.TestNGTest">
-        <test-method status="PASS" signature="Method1()[pri:0, instance:Test_Package.TestNGTest@5c3bd550]" name="Method1" duration-ms="92" started-at="2020-06-29T22:53:46Z" finished-at="2020-06-29T22:53:46Z">
+    <test name="Default test" duration-ms="2547" started-at="2020-07-02T18:23:54Z" finished-at="2020-07-02T18:23:57Z">
+      <class name="Test_Package.DropDownTest">
+        <test-method status="PASS" signature="Link()[pri:0, instance:Test_Package.DropDownTest@19835e64]" name="Link" duration-ms="2434" started-at="2020-07-02T23:53:54Z" finished-at="2020-07-02T23:53:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Method1 -->
-        <test-method status="PASS" signature="Method2()[pri:0, instance:Test_Package.TestNGTest@5c3bd550]" name="Method2" duration-ms="5" started-at="2020-06-29T22:53:46Z" finished-at="2020-06-29T22:53:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Method2 -->
-        <test-method status="PASS" signature="method3()[pri:0, instance:Test_Package.TestNGTest@5c3bd550]" name="method3" duration-ms="2" started-at="2020-06-29T22:53:46Z" depends-on-methods="Test_Package.TestNGTest.Method1" finished-at="2020-06-29T22:53:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method3 -->
-      </class> <!-- Test_Package.TestNGTest -->
+        </test-method> <!-- Link -->
+      </class> <!-- Test_Package.DropDownTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

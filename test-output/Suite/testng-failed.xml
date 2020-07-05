@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="User" value="Admin"/>
+  <parameter name="Pass" value="admin123"/>
+  <listeners>
+    <listener class-name="Test_Package.Login_Test"/>
+  </listeners>
+  <test name="Test(failed)">
+    <parameter name="User" value="Admin"/>
+    <parameter name="Pass" value="admin123"/>
+    <classes>
+      <class name="Test_Package.Login_Test">
+        <methods>
+          <include name="Login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Test_Package.Login_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

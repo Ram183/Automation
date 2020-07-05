@@ -19,20 +19,17 @@ public class TestText {
 	}
 	
 	@DataProvider(name="Text")
-	public Object[][] Datas()
+	public Object[][] Datas()                      //int[][]                  int a[][]=new int[5][];
 	{
 		Object[][] Data=new Object[5][1];         // -Array Declaration
 		Data[0][0]="Hai";
 		Data[1][0]="Hai2";
-		Data[2][0]="Hai3";
-		Data[3][0]="Hai4";
+		Data[2][0]="Hai3";                   // Object[][] Data=new Object[1][2];  
+	                                         //Data[0][0]="User"
+		Data[3][0]="Hai4";                   //Data[0][1]="Pass"
 		Data[4][0]="Hai4";
 		return Data;
-		
-		
-		
-		
-	}
+		}
 	
 	@Test(dataProvider="Text")
 	public void TextBox(String text)
