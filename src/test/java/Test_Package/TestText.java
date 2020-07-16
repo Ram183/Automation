@@ -32,7 +32,7 @@ public class TestText {
 		}
 	
 	@Test(dataProvider="Text")
-	public void TextBox12345(String text)
+	public void TextBox(String text)
 	{
 		t.Button.click();
 		//b.TextBoxWithSendKey(t.TextBox, "RamGURUSenthil");
